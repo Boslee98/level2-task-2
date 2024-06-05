@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+    color: azure;
+}
+H1{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', ' sans-serif';
+    padding-top: 50px;
+}
+.container{
+    text-align: center;
+    font-size: 1rem;
+    padding:0px 200px 0px 200px;
+}
+#image{
+    width: 600px;
+    height: 70vh;
+    padding-top: 15px;
+}
+#heading{
+    display: inline;
+}
+.achievements{
+    text-align: center;
+    font-size: 1rem;
+    
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    grid-auto-flow: column;
+    gap: 8px;
+    width: 100%;
+}
+.footer{
+    padding: 10px 0px 10px 0;
+}
+a{
+    color:rgb(141, 60, 60);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: rgb(236, 11, 11);
+    text-decoration: underline;
+    }
